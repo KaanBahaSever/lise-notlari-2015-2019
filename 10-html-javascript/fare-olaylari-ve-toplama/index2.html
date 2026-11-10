@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+       <script>        
+           function Calculate(){
+            var x= parseInt(  document.getElementById('sy1').value)+parseInt(document.getElementById('sy2').value);
+            document.getElementById('tp').innerHTML=x;
+           }
+        </script>
+    </head>
+    <body>
+        <input id='sy1' type="text"/>
+        <br>
+        <input id='sy2' type="text"/>
+        <br>
+        <button onclick="Calculate()">Hesapla</button>
+        <br>
+        <h1 id='tp'> Merhaba </h1>
+        
+    </body>
+</html>

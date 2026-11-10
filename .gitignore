@@ -1,0 +1,10 @@
+bin/
+obj/
+.vs/
+*.suo
+*.user
+*.exe
+*.pdb
+*.mdf
+*.ldf
+*.accdb

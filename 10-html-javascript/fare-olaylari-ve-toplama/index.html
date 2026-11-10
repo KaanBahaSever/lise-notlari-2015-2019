@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+		<meta charset="utf-8">
+       <script>        
+           function attention(){
+               document.getElementById('mtn').innerHTML='Dışarıdasın';
+           }
+           function attention2(){
+                document.getElementById('mtn').innerHTML='Üzerindesin';
+           }
+           function attention3(){
+               document.getElementById('mtn').innerHTML='Resim Üzerinde';
+           }
+           function attention4(){
+               document.getElementById('mtn').innerHTML='Sol tuştan parmağını çektin görüyorum';
+           }
+        </script>
+    </head>
+    <body>
+        <img height="200" width="200" onmouseout="attention()" onmouseover="attention2()" onmousedown="attention4()" onmousemove="attention3()" src="Jellyfish.jpg"/>
+        <h1 id='mtn'> Merhaba </h1>
+    </body>
+</html>

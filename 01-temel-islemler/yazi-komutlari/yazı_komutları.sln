@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yazı_komutları", "yazı_komutları\yazı_komutları.csproj", "{F6450B14-7EC7-4605-A6E2-001F05814730}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6450B14-7EC7-4605-A6E2-001F05814730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6450B14-7EC7-4605-A6E2-001F05814730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6450B14-7EC7-4605-A6E2-001F05814730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6450B14-7EC7-4605-A6E2-001F05814730}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
